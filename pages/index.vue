@@ -5,7 +5,11 @@
 </template>
 
 <script lang="ts">
-export default defineComponent({
-  name: 'IndexPage'
-})
+export default {
+  data () {
+    return {
+      text: 'hi'
+    }
+  }
+}
 </script>

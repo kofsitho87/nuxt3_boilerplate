@@ -7,6 +7,9 @@ export default defineNuxtConfig({
       'composables/**'
     ]
   },
+  css: [
+    '~/assets/css/todo.css'
+  ],
   vite: {
     plugins: [
       eslintPlugin({
